@@ -1,0 +1,15 @@
+{
+  "is_uk": 0.0033,
+  "cancellation_count": 0.0139,
+  "cancellation_rate": 0.0193,
+  "repeat_customer": 0.0286,
+  "avg_basket_size": 0.0472,
+  "tenure_days": 0.053,
+  "avg_order_value": 0.0552,
+  "recency_days": 0.1011,
+  "unique_products": 0.1081,
+  "total_quantity": 0.1236,
+  "purchase_span_days": 0.1246,
+  "monetary_total": 0.1523,
+  "frequency": 0.1697
+}

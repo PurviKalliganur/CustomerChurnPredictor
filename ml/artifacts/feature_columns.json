@@ -1,0 +1,15 @@
+[
+  "recency_days",
+  "frequency",
+  "monetary_total",
+  "avg_order_value",
+  "total_quantity",
+  "avg_basket_size",
+  "unique_products",
+  "tenure_days",
+  "purchase_span_days",
+  "cancellation_count",
+  "cancellation_rate",
+  "is_uk",
+  "repeat_customer"
+]

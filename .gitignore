@@ -1,0 +1,81 @@
+# ==============================================================================
+# Python Virtual Environments
+# ==============================================================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*/venv/
+E_Commerce Analytics/
+
+# ==============================================================================
+# Bytecode, Compiler & Test Caches
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.cache/
+
+# ==============================================================================
+# Environment Variables & Secrets (NEVER COMMIT)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.swp
+..*.swp
+
+# ==============================================================================
+# Operating System & IDE Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ==============================================================================
+# Execution Logs & Airflow Local State
+# ==============================================================================
+*.log
+logs/*.log
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+
+# ==============================================================================
+# Large Intermediate Non-Runtime Staging Files
+# (These are generated during raw ETL and are NOT required by the Streamlit dashboard)
+# ==============================================================================
+data/staging/
+data/processed/val_online_retail.csv
+# Local MLflow tracking history
+mlruns/
+# ==============================================================================
+# Local Databases and MLflow
+# ==============================================================================
+ecommerce.db
+mlflow.db
+mlruns/
+
+# ==============================================================================
+# Generated Data and Local Logs
+# ==============================================================================
+data/raw/
+data/processed/
+data/rejected/
+logs/
